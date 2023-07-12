@@ -1,0 +1,20 @@
+.inputContainer{
+    padding-bottom: 10px;
+}
+
+.label{
+    display: block;
+    font-size: 15px;
+    color: var(--color-black);
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.inputContainer input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.12rem;
+    border-bottom: 1px solid var(--color--light-border);
+}

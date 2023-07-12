@@ -1,0 +1,31 @@
+:root{
+    --color-black:#3d4152;
+    --color-dark-black:#282c3f;
+    --color-white:#fff;
+    --color-orange:#fc8019;
+    --color-gray:#93959f;
+    --color-dark-gray:#686b78;
+    --color--light-border:#d4d5d9;
+    --color-green:#48c479;
+    --color-brown:#8a584b;
+    --color-blue:#5d8ed5;
+    --color-dark-green:#60b246;
+    --color-light-red:#fa4a5b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

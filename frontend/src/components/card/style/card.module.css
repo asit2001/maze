@@ -1,0 +1,45 @@
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background: var(--color-white);
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.card__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+    object-fit: cover;
+    object-position: center;
+}
+.card__name{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card__profession{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+.icons a{
+    text-decoration: none;
+    color: #000228;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+}
