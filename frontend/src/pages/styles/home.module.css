@@ -1,17 +1,13 @@
 .container{
-    height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.2));
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+    min-height: 100vh;
 }
 .card__containers{
-    max-width: 900px;
+    max-width: 1300px;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(6,auto);
     justify-content: space-around;
+    gap: 20px;
 }
 .btn{
     display: block;
@@ -29,4 +25,25 @@
 }
 .btn:hover{
     background-color: rgb(15, 124, 193);
+}
+@media screen and (max-width:1300px) {
+    .card__containers{
+        grid-template-columns: repeat(4,auto);
+    }
+}
+@media screen and (max-width:920px) {
+    .card__containers{
+        grid-template-columns: repeat(3,auto);
+    }
+}
+@media screen and (max-width:740px) {
+    .card__containers{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width:460px) {
+    .card__containers{
+        grid-template-columns: auto;
+        place-items: center;
+    }
 }

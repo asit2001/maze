@@ -29,3 +29,6 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+html{
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.2));
+}
