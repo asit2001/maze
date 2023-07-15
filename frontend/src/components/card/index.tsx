@@ -16,7 +16,7 @@ function Card({data}: {data:ResProfile}) {
       <h2 className={style.card__name}>{data.name}</h2>
       <h4 className={style.card__profession}>{data.profession}</h4>
       <div className={style.icons}>
-        <a target="_blank" href={data.email} rel="noreferrer">
+        <a target="_blank" href={`mailto:${data.email}`} rel="noreferrer">
           <MdOutlineEmail className={style.icon}/>
         </a>
         <a target="_blank" href={data.github} rel="noreferrer">
